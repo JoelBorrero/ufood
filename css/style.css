@@ -1,0 +1,191 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Hind&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    /*Font library*/
+    --Pacifico: "Pacifico", cursive;
+    --Dosis: "Dosis", sans-serif;
+    --Hind: "Hind", sans-serif;
+    /*Color*/
+    --light-black: #2e2c2caf;
+    --light-white: #fffffff6;
+    --bggradient: linear-gradient(to bottom, #f73628, #dd2476);
+    --light-gray: rgba(255, 255, 255, 0);
+}
+
+.cursiva {
+    font-family: var(--Pacifico);
+}
+
+header a {
+    font-family: var(--Pacifico);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 9px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 25vmin 1vmin;
+    padding-bottom: 15vmin;
+    font-family: var(--Dosis);
+    color: white;
+}
+
+
+header .row .col-md-5 img {
+    padding: 7vmin 1vmin;
+    /*box-shadow: 0px 2px 15px 9px rgba(0, 0, 0, 0.2);*/
+}
+
+header .container .col-md-5 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-5 p {
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button {
+    border-radius: 60px;
+    font-weight: bold;
+}
+
+/*Carousel item style*/
+.carousel-item {
+    padding: 1em 0em;
+}
+
+.view {
+    padding: 1vmin 1vmin;
+}
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: #b9b9b95d;
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+    color: var(--light-black);
+}
+
+.card .card-text {
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .pricing {
+    background: #dd2476;
+    background: var(--bggradient);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+    color: var(--light-white);
+}
+
+.card-body .pricing>h1 {
+    font-size: 6.6vmin;
+    padding: 1em 0.5em;
+}
+
+/*footer*/
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #f73628;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #f73628;
+}
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
